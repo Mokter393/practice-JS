@@ -8,14 +8,14 @@
 // 90-99 = A+
 // 100 = Golden A+
 
-let studentMarks = 30;
+let studentMarks = "Rafiq";
 
 switch (studentMarks){
-    case studentMarks<33 && studentMarks>0:
-    console.log("Sorry you failed");
+    case "sorif":
+    console.log("Sorry you are not rafiq");
     break;
-    case studentMarks>=33 && studentMarks<39:
-    console.log("You got E Grade");
+    case "Rafiq":
+    console.log("Yes you are Rafiq");
     break;
     default:
         console.log("please enter valid number");
